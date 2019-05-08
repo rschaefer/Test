@@ -15,5 +15,8 @@
 
 class A
 {
-
+    function getA()
+    {
+        return "A";
+    }
 }

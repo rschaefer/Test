@@ -13,9 +13,13 @@
  * @version: x.x.x
  */
 
-class controller {
+class controller
+{
 
-    function createA () {
-    return new A();
+    function createA()
+    {
+        $a = new A();
+        return $a->getA();
     }
+
 }
