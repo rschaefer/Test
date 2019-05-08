@@ -10,7 +10,7 @@
  * @subpackage ${PACKAGE_NAME}
  *
  * @author: rita
- * @version: 03
+ * @version: 02
  */
 
 class controller
@@ -20,6 +20,11 @@ class controller
     {
         $a = new A();
         return $a->getA();
+    }
+
+    function createB()
+    {
+        $b = new B();
     }
 
     function createC()
