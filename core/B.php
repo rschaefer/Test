@@ -15,5 +15,6 @@
 
 class B
 {
-
+function getB() {
+  return "B";
 }
