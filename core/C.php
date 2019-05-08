@@ -10,21 +10,10 @@
  * @subpackage ${PACKAGE_NAME}
  *
  * @author: rita
- * @version: 02
+ * @version: x.x.x
  */
 
-class controller
+class C
 {
-
-    function createA()
-    {
-        $a = new A();
-        return $a->getA();
-    }
-
-    function createC()
-    {
-        $c = new C();
-    }
 
 }
