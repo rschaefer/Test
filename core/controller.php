@@ -37,5 +37,10 @@ class controller
     {
         $c = new C();
     }
+    
+    function createD()
+    {
+        $d = new D();
+    }
 
 }
