@@ -22,6 +22,12 @@ class controller
         return $a->getA();
     }
 
+    function createE()
+    {
+        $e = new E();
+        return $e->getE();
+    }
+
     function createB()
     {
         $b = new B();
