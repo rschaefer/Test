@@ -21,5 +21,10 @@ class controller
         $a = new A();
         return $a->getA();
     }
+    
+    function createB()
+    {
+        $b = new B();
+    }
 
 }
