@@ -10,7 +10,7 @@
  * @subpackage ${PACKAGE_NAME}
  *
  * @author: rita
- * @version: 05
+ * @version: 06
  */
 
 class controller
