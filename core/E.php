@@ -13,10 +13,10 @@
  * @version: x.x.x
  */
 
-class A
+class E
 {
     function getE()
     {
-        return "E";
+        return "e";
     }
 }
