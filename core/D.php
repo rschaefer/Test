@@ -15,5 +15,6 @@
 
 class D
 {
-
+function getD () {
+  return "d";
 }
