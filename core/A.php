@@ -13,9 +13,7 @@
  * @version: x.x.x
  */
 
-class controller {
+class A
+{
 
-    function createA () {
-    return new A();
-    }
 }
