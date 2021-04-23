@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T20:46:30.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="LeJxQ1gBENz4Z0LQurfA" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T20:54:08.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="F3F09awR8nlPPbVfQyJ9" version="14.6.6" type="github">
   <diagram id="3WkeCDNO4JOJ7i5teq0Y" name="Page-1">
     <mxGraphModel dx="2591" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,16 +16,16 @@
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="65" y="187.5" width="160" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-2" value="&lt;span&gt;startApp&lt;br&gt;&lt;/span&gt;run_cron_app_worker.php&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="170" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-4" value="new CronModule()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="70" width="120" height="20" as="geometry" />
+          <mxGeometry x="80" y="78" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-6" value="worker_queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="149" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-7" value="&lt;span&gt;startApp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="70" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-8" value="CronModule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="320" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-13" value="&lt;span&gt;startApp&lt;br&gt;run_cron_app_worker.php&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="330" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-14" value="worker_mainJob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -91,23 +91,11 @@
             <mxPoint x="340" y="333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-26" value="startApp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="365" y="80" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-29" value="startApp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="187" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-30" value="run_cron_app_worker.php" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="365" y="210" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-33" value="start_service.php" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="50" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-34" value="Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="112.5" y="220" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-36" value="restart if needed..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="85" y="240" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-37" value="" style="endArrow=classic;html=1;entryX=-0.004;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vHGJKrFZ5tcl8I4FfaOA-39" target="vHGJKrFZ5tcl8I4FfaOA-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -121,11 +109,8 @@
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="90" width="220" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="vHGJKrFZ5tcl8I4FfaOA-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="160" width="160" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-43" value="Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="129" width="40" height="20" as="geometry" />
+          <mxGeometry x="640" y="135" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vHGJKrFZ5tcl8I4FfaOA-44" value="run_cron_app_worker.php" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="60" width="40" height="20" as="geometry" />
@@ -199,16 +184,41 @@
         <mxCell id="xk0VU2B57EffYjzDep0H-15" value="set UserAndTerminal&lt;br&gt;&lt;br&gt;POST/cronQueue&lt;br&gt;oder&lt;br&gt;POST/cronJobs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="215" width="120" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xk0VU2B57EffYjzDep0H-16" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xk0VU2B57EffYjzDep0H-3">
+        <mxCell id="xk0VU2B57EffYjzDep0H-16" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="xk0VU2B57EffYjzDep0H-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="268" as="sourcePoint" />
             <mxPoint x="480" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk0VU2B57EffYjzDep0H-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk0VU2B57EffYjzDep0H-15" target="xk0VU2B57EffYjzDep0H-4">
+        <mxCell id="xk0VU2B57EffYjzDep0H-17" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk0VU2B57EffYjzDep0H-15" target="xk0VU2B57EffYjzDep0H-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="320" as="sourcePoint" />
             <mxPoint x="215" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk0VU2B57EffYjzDep0H-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="160" as="sourcePoint" />
+            <mxPoint x="710" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="160" />
+              <mxPoint x="570" y="250" />
+              <mxPoint x="570" y="340" />
+              <mxPoint x="727" y="340" />
+              <mxPoint x="730" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk0VU2B57EffYjzDep0H-26" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="85" y="240" />
+              <mxPoint x="85" y="330" />
+              <mxPoint x="190" y="330" />
+              <mxPoint x="190" y="240" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
